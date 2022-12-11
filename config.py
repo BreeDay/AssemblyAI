@@ -1,1 +1,1 @@
-auth_key="b81ef5ceca36487691ce6fe7a5dcc7b1"
+auth_key="YOUR_KEY_HERE"

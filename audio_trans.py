@@ -55,7 +55,7 @@ async def send_receive():
 					#time = datetime.datetime.now()
 					data = stream.read(FRAMES_PER_BUFFER)
 					data = base64.b64encode(data).decode("utf-8")
-					json_data = json.dumps({"audio_data":str(data)})
+					json_data = json.dumps({"terminate_session": True})
 					#print(time.time())
 					print(session_begins)
 					await _ws.send(json_data)
